@@ -1,0 +1,269 @@
+if game.PlaceId == 10449761463 then
+
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "The Strongest Battlegrounds Animations",
+   LoadingTitle = "Animations Hub",
+   LoadingSubtitle = "by mythex.executor",
+   ConfigurationSaving = {
+      Enabled = false,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Example Hub"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Key | Animations Hub",
+      Subtitle = "Key System",
+      Note = "Key In Discord Server",
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"https://pastebin.com/raw/sg1ZC7fT"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+local MainTab = Window:CreateTab("Saitama", 17761388375) -- Title, Image
+local MainSection = MainTab:CreateSection("Main")
+
+Rayfield:Notify({
+   Title = "You executed the script",
+   Content = "ty for use my poop ;)",
+   Duration = 5,
+   Image = 13047715178,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "np bro",
+         Callback = function()
+         print("again ty lol")
+      end
+   },
+},
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Gojo V2",
+   Callback = function()
+        getgenv().morph = false -- turn false to true if you want custom accessories
+loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/refs/heads/main/LatestV2.lua"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Tokyo gojo",
+   Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/zF6Rdky0"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Jun",
+   Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Tp%20exploit%20saitama%20to%20jun'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Blady The Sorcerer",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/main/Latest.lua"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Deku",
+   Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/MNg2zcxz/raw"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Nokotan + Hakari",
+   Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Hero-to-True-Nosakatan-18742"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Kyra Gojo",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Gokou300/Gokou300/main/Kyra%20Gojo%20Tsb%20Bypassed"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Flash (for all characters)",
+   Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/S47nEM11"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Yuji x Sukuna",
+   Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/1yaXL0rA'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Toji",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kademboss/maddyhure/main/fe3feafeaefa"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "KJ",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RathaTepmanuth10/Kj-script-/main/Kj"))()
+   end,
+})
+    
+local MainTab = Window:CreateTab("Garou", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Main")
+    
+local Button = MainTab:CreateButton({
+   Name = "Yuji",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xVicity/GLACIER/main/LATEST.lua"))() 
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Acraura",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/ARCAURA.lua"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Dio",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Medley-Taboritsky/RobloxScripting/refs/heads/main/DIO_Garou_TSB"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Sonic",
+   Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/7V1mUBtQ"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Kungfu Panda",
+   Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/DqXUTANt"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Goku",
+   Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Goku-Moveset-V2-17977"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Suiryu",
+   Callback = function()
+        loadstring(game:HttpGet"https://gist.githubusercontent.com/kjremaker/b092496fc11a57e2c50477154176fa3e/raw/2148f00a036a1799118541765675f3f6a0f8adae/GAROU%20TO%20SURIYU%20BETTER%20THAN%20THE%20OTHERS%20FR")()
+   end,
+})
+    
+local MainTab = Window:CreateTab("Genos", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Main")
+
+local MainTab = Window:CreateTab("Sonic", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Main")
+
+local MainTab = Window:CreateTab("Metal Bat", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Main")
+
+local MainTab = Window:CreateTab("Atomic Samurai", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Main")
+
+local Button = MainTab:CreateButton({
+   Name = "Sukuna",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/zyrask/Nexus-Base/main/atomic-blademaster%20to%20sukuna"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Sukuna",
+   Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/gUrBYsGK"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Toji",
+   Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/VQnyWP5D'))()
+   end,
+})
+
+local MainTab = Window:CreateTab("Tatsumaki", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Main")
+
+local Button = MainTab:CreateButton({
+   Name = "Sans",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Qaiddanial2904/ROBLOX-FREAKY-GOJO-REAL/refs/heads/main/SANS%20%5BREDACTED%5D"))()
+   end,
+})
+
+local MainTab = Window:CreateTab("All", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Main")
+
+local Button = MainTab:CreateButton({
+   Name = "Apophenia V1",
+   Callback = function()
+        getgenv().Music = true
+--Setting this to false usually fixes most executors
+--also it helps load time a little bit
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Apophenia V2",
+   Callback = function()
+        getgenv().Music = false 
+--Setting this to false usually fixes most executors
+--also it helps load time a little bit
+getgenv().AttackQuality = 'High'
+--Set to Low,High
+
+ getgenv().ConstantSpeed = false
+--if you want your speed to be constant
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
+   end,
+})
+    
+local MainTab = Window:CreateTab("Suiryu", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Main")
+
+local MainTab = Window:CreateTab("character guis", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Main")
+
+local Button = MainTab:CreateButton({
+   Name = "",
+   Callback = function()
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/Wi-sp/Limitless-legacy/refs/heads/main/GUI")()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "",
+   Callback = function()
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/h8h88/hubfr/main/hubfr")()
+   end,
+})
+end
