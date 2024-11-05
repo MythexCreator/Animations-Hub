@@ -170,13 +170,6 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Dio",
-   Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Medley-Taboritsky/RobloxScripting/refs/heads/main/DIO_Garou_TSB"))()
-   end,
-})
-
-local Button = MainTab:CreateButton({
    Name = "Sonic",
    Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/7V1mUBtQ"))()
