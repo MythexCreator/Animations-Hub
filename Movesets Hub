@@ -47,6 +47,13 @@ Rayfield:Notify({
 })
 
 local Button = MainTab:CreateButton({
+   Name = "Sonic.exe",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/sonic-exe-moveset-3/refs/heads/main/3"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
    Name = "Mahito",
    Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Mahitotsbupdate'))()
