@@ -263,6 +263,9 @@ local Button = MainTab:CreateButton({
    end,
 })
 
+local MainTab = Window:CreateTab("Suiryu", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Main")
+
 local MainTab = Window:CreateTab("All", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
@@ -290,9 +293,6 @@ getgenv().AttackQuality = 'High'
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
    end,
 })
-    
-local MainTab = Window:CreateTab("Suiryu", nil) -- Title, Image
-local MainSection = MainTab:CreateSection("Main")
 
 local MainTab = Window:CreateTab("character guis", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
