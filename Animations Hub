@@ -47,6 +47,20 @@ Rayfield:Notify({
 })
 
 local Button = MainTab:CreateButton({
+   Name = "Child Emporor",
+   Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/CaXFZ2S2"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Todo",
+   Callback = function()
+        loadstring(game:HttpGet("https://paste.ee/r/Kd9uX"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
    Name = "Oblivion guard",
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/invertedth/OblivionGourd/refs/heads/main/Dabestscirpt"))()
@@ -133,6 +147,13 @@ local Button = MainTab:CreateButton({
     
 local MainTab = Window:CreateTab("Garou", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
+
+local Button = MainTab:CreateButton({
+   Name = "Gojo",
+   Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/3Cz8kF8M",true))()
+   end,
+})
     
 local Button = MainTab:CreateButton({
    Name = "Yuji",
