@@ -298,14 +298,14 @@ local MainTab = Window:CreateTab("character guis", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
 local Button = MainTab:CreateButton({
-   Name = "",
+   Name = "Limitless Legacy",
    Callback = function()
         loadstring(game:HttpGet"https://raw.githubusercontent.com/Wi-sp/Limitless-legacy/refs/heads/main/GUI")()
    end,
 })
 
 local Button = MainTab:CreateButton({
-   Name = "",
+   Name = "Heich Customs",
    Callback = function()
         loadstring(game:HttpGet"https://raw.githubusercontent.com/h8h88/hubfr/main/hubfr")()
    end,
