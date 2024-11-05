@@ -47,6 +47,13 @@ Rayfield:Notify({
 })
 
 local Button = MainTab:CreateButton({
+   Name = "Oblivion guard",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/invertedth/OblivionGourd/refs/heads/main/Dabestscirpt"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
    Name = "Gojo V2",
    Callback = function()
         getgenv().morph = false -- turn false to true if you want custom accessories
@@ -179,8 +186,17 @@ local Button = MainTab:CreateButton({
 local MainTab = Window:CreateTab("Genos", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
+    
+
 local MainTab = Window:CreateTab("Sonic", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
+
+local Button = MainTab:CreateButton({
+   Name = "Voltra",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VOLTA.lua"))()
+   end,
+})
 
 local MainTab = Window:CreateTab("Metal Bat", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
