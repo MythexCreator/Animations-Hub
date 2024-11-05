@@ -3,8 +3,8 @@ if game.PlaceId == 10449761463 then
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "The Strongest Battlegrounds Animations",
-   LoadingTitle = "Animations Hub",
+   Name = "The Strongest Battlegrounds Movesets",
+   LoadingTitle = "Movesets Hub",
    LoadingSubtitle = "by mythex.executor",
    ConfigurationSaving = {
       Enabled = false,
@@ -18,7 +18,7 @@ local Window = Rayfield:CreateWindow({
    },
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Key | Animations Hub",
+      Title = "Key | Movesets Hub",
       Subtitle = "Key System",
       Note = "Key In Discord Server",
       FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
