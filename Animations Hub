@@ -161,13 +161,6 @@ local Button = MainTab:CreateButton({
         loadstring(game:HttpGet("https://pastebin.com/raw/3Cz8kF8M",true))()
    end,
 })
-    
-local Button = MainTab:CreateButton({
-   Name = "Yuji",
-   Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xVicity/GLACIER/main/LATEST.lua"))() 
-   end,
-})
 
 local Button = MainTab:CreateButton({
    Name = "Acraura",
@@ -308,6 +301,13 @@ local Button = MainTab:CreateButton({
    Name = "Heich Customs",
    Callback = function()
         loadstring(game:HttpGet"https://raw.githubusercontent.com/h8h88/hubfr/main/hubfr")()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Glacier Hub",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xVicity/GLACIER/main/LATEST.lua"))() 
    end,
 })
 end
