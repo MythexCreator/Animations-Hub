@@ -47,6 +47,13 @@ Rayfield:Notify({
 })
 
 local Button = MainTab:CreateButton({
+   Name = "Mahito",
+   Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Mahitotsbupdate'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
    Name = "Sukuna",
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/Sukuna/refs/heads/main/KenjakuTsbOnYt"))()
