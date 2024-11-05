@@ -47,6 +47,13 @@ Rayfield:Notify({
 })
 
 local Button = MainTab:CreateButton({
+   Name = "Sukuna",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/Sukuna/refs/heads/main/KenjakuTsbOnYt"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
    Name = "Gojo Domain",
    Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/777Q4QDN",true))()
