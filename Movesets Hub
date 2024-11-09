@@ -38,9 +38,9 @@ Rayfield:Notify({
    Image = 13047715178,
    Actions = { -- Notification Buttons
       Ignore = {
-         Name = "np bro",
+         Name = "shut up",
          Callback = function()
-         print("again ty lol")
+         print(":(")
       end
    },
 },
