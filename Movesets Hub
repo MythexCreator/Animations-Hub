@@ -47,6 +47,13 @@ Rayfield:Notify({
 })
 
 local Button = MainTab:CreateButton({
+   Name = "Okarun",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FlowersTsb/Moveset/refs/heads/main/FlowersOkarun"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
    Name = "Kashimo",
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/Kashimo/main/Protected_7491278457865044.txt"))()
@@ -198,6 +205,13 @@ local MainTab = Window:CreateTab("Garou", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
 local Button = MainTab:CreateButton({
+   Name = "A-Train",
+   Callback = function()
+        loadstring(game:HttpGet("https://paste.ee/r/AnZ5j"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
    Name = "Gojo",
    Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/3Cz8kF8M",true))()
@@ -281,6 +295,13 @@ local Button = MainTab:CreateButton({
    end,
 })
 
+local Button = MainTab:CreateButton({
+   Name = "Kyra Toji",
+   Callback = function()
+        loadstring(game:HttpGet("https://paste.ee/r/0uIxM"))()
+   end,
+})
+
 local MainTab = Window:CreateTab("Tatsumaki", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
@@ -288,6 +309,13 @@ local Button = MainTab:CreateButton({
    Name = "Sans",
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Qaiddanial2904/ROBLOX-FREAKY-GOJO-REAL/refs/heads/main/SANS%20%5BREDACTED%5D"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Geto",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/Geto-suguru/refs/heads/main/Nova2ezz"))()
    end,
 })
 
